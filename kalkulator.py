@@ -48,8 +48,7 @@ def rezultat():
     entry.configure(state = "normal")
     e = entry.get()
     if da_li_je_prazno():
-        entry.insert(0, "")
-        entry.configure(state = "readonly")
+        obrisi("")
     else:
         entry.delete(0, END)
         if operacija == "sabiranje":
