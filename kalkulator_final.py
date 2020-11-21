@@ -101,6 +101,5 @@ button_obrisi.grid(row = 6, column = 2)
 
 button_jednako = Button(root, text = "=", width = 33, height = 3, bg = "#c97586", command = rezultat)
 button_jednako.grid(row = 7, column = 0, columnspan = 3)
-#df7a92
-#
+
 root.mainloop()
