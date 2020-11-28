@@ -4,7 +4,7 @@ e = 0
 #unos
 
 def da_li_je_prazno():
-    return entry.get() == ""
+    return e == ""
 def obrisi(string):
     """ odgovara dugmetu Obrisi i poziva se iz drugih funkcija-> brise sve sa ulaza i postavlja odgovarajuci element"""
     entry.configure(state = "normal")
@@ -23,7 +23,6 @@ def rezultat():
     """ odgovara dugmetu jednako -> postavlja rezultat operacije"""
     global e
     entry.configure(state = "normal")
-    e = entry.get()
     if da_li_je_prazno():
         obrisi("")
     else:
