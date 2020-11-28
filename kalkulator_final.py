@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import messagebox
 e = 0 
 #unos
-operacija = 0 
 
 def da_li_je_prazno():
     return entry.get() == ""
